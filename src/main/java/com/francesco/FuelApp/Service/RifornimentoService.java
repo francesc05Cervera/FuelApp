@@ -3,9 +3,10 @@ package com.francesco.FuelApp.Service;
 import com.francesco.FuelApp.DTO.NewRifornimentoReq;
 import com.francesco.FuelApp.Model.RifornimentoModel;
 import com.francesco.FuelApp.Repository.RifornimentoRepo;
-
+import org.springframework.stereotype.Service;
 import java.util.List;
 
+@Service
 public class RifornimentoService 
 {
     private final RifornimentoRepo rifornimentoRepository;
